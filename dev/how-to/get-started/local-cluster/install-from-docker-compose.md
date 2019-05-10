@@ -28,10 +28,10 @@ aliases: ['/docs-cn/op-guide/docker-compose/']
     git clone https://github.com/pingcap/tidb-docker-compose.git
     ```
 
-2. 创建并启动集群
+2. 创建并启动集群  # Get the latest Docker images
 
     ```bash
-    cd tidb-docker-compose && docker-compose pull # Get the latest Docker images
+    cd tidb-docker-compose && docker-compose pull
     docker-compose up -d
     ```
 
